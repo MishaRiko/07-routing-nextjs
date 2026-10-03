@@ -1,4 +1,44 @@
-.page {
+.main {
+  flex: 1;
+}
+
+.container {
+  width: 90%;
+  max-width: 1280px;
+  margin: 0px auto;
+  padding: 0 16px 16px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.description {
+  font-size: 18px;
+  color: #444444;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .page {
   --background: #fafafa;
   --foreground: #fff;
 
@@ -95,7 +135,7 @@ a.secondary {
 }
 
 /* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
+/* @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
     background: var(--button-primary-hover);
     border-color: transparent;
@@ -147,4 +187,4 @@ a.secondary {
   background: color-mix(in srgb, currentColor 8%, transparent);
   padding: 0.1em 0.4em;
   border-radius: 6px;
-}
+} */ 
